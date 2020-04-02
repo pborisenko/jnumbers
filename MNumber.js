@@ -1,11 +1,11 @@
 class MNumber{
   constructor(){
-    this.int = 0;
-    this.num = 0;
-    this.denom = 1;
-    this.exp =  1;
+    this.integer = 0;
+    this.numerator = 0;
+    this.denominator = 1;
+    this.exponent =  1;
     this.attribute = new MAttribute;
-    this.html = [];
+    this.form = new MForm;
   };
   set(int, num, denom, exp){
     try {
