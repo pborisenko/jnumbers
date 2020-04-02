@@ -1,4 +1,4 @@
-Вводи в консоли (обновлено и перезалито)
+Вводи в консоли
 
 document.body.innerHTML = '<div width=100px>'+$M.getNumber('xx-yy','aa-bb','cc-dd','ee-ff','jj-hh',0).html+'</div>'
 
