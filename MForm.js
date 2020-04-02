@@ -1,5 +1,6 @@
 class MForm{
   constructor(){
-    this.html = '';
+    this.variant = 'undefined';
+    this.html = 'undefined';
   };
 };
