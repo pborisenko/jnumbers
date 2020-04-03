@@ -1,3 +1,7 @@
+/*
+Autor: Petr Borisenko [borisenko.petr.a@gmail.com]
+jnumbers.js - Java Scrypt library for project reshaem.pro.
+*/
 var arr = {
     int: [],
     simple_int: [],

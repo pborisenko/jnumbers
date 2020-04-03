@@ -1,11 +1,18 @@
+/*
+Autor: Petr Borisenko [borisenko.petr.a@gmail.com]
+MNumber - класс объекта числа.
+*/
 class MNumber{
+  /*
+  Конструктор объекта.
+  */
   constructor(){
-    this.integer = 0;
-    this.numerator = 0;
-    this.denominator = 1;
-    this.exponent =  1;
-    this.attribute = new MAttribute;
-    this.form = new MForm;
+    this.integer = 0;                 //целая часть
+    this.numerator = 0;               //числитель
+    this.denominator = 1;             //знаменатель
+    this.exponent =  1;               //показатель степени
+    this.attribute = new MAttribute;  //колелкция свойств
+    this.form = [new MForm];          //коллекция отображений
   };
   set(int, num, denom, exp){
     try {
